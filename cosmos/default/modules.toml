@@ -1,0 +1,741 @@
+[ClickGUI]
+Enabled = false
+Drawn = true
+Bind = 54
+PauseGame = false
+Blur = false
+
+[Colors]
+Enabled = true
+Drawn = false
+Bind = 0
+Color = -9018656
+Rainbow = "NONE"
+Rainbow-RainbowSpeed = 50.0
+Rainbow-RainbowSaturation = 0.35
+Rainbow-RainbowBrightness = 1.0
+Rainbow-RainbowDifference = 40.0
+
+[DiscordPresence]
+Enabled = true
+Drawn = false
+Bind = 0
+
+[Font]
+Enabled = true
+Drawn = false
+Bind = 0
+Vanilla = false
+
+[HUD]
+Enabled = true
+Drawn = false
+Bind = 0
+Watermark = true
+ActiveModules = true
+Coordinates = true
+Speed = true
+Ping = true
+FPS = true
+TPS = true
+Armor = true
+PotionEffects = false
+PotionHUD = false
+Advancements = false
+
+[Social]
+Enabled = true
+Drawn = false
+Bind = 0
+Friends = true
+
+[StreamerMode]
+Enabled = false
+Drawn = true
+Bind = 0
+
+[Aura]
+Enabled = false
+Drawn = true
+Bind = 19
+Interact = "STRICT"
+Iterations = 1.0
+Variation = 100.0
+Range = 6.0
+WallsRange = 6.0
+Timing = "VANILLA"
+Timing-Delay = "SWING"
+Timing-Factor = 1.0
+Timing-Milliseconds = 1000.0
+Timing-Ticks = 15.0
+Timing-TPS = "AVERAGE"
+Timing-Switch = 0.0
+Timing-Random = 0.0
+Timing-TicksExisted = 0.0
+FOV = 180.0
+Weapon = "SWORD"
+Weapon-OnlyWeapon = true
+Weapon-32K = false
+Weapon-Block = false
+Rotation = "PACKET"
+Rotation-YawLimit = "STRICT"
+Bone = "EYES"
+Rotation-RandomRotate = 5.2
+Swing = "MAINHAND"
+Raytrace = true
+Packet = true
+Teleport = false
+Reactive = true
+StopSprint = false
+StopSneak = false
+Pause = true
+Pause-PauseHealth = 2.0
+Pause-PauseEating = true
+Pause-PauseMining = true
+Pause-PauseMending = false
+Switch = "NORMAL"
+Target = "CLOSEST"
+Target-TargetPlayers = true
+Target-TargetPassives = true
+Target-TargetNeutrals = true
+Target-TargetHostiles = true
+Render = true
+
+[AutoArmor]
+Enabled = false
+Drawn = true
+Bind = 0
+Delay = 100.0
+NoBinding = true
+Inventory = false
+
+[AutoCrystal]
+Enabled = false
+Drawn = true
+Bind = 0
+Explode = true
+Explode-ExplodeRange = 6.0
+Explode-ExplodeWallRange = 3.5
+Explode-ExplodeDelay = 60.0
+Explode-ExplodeRandomDelay = 0.0
+Explode-SwitchDelay = 0.0
+Explode-TicksExisted = 0.0
+Explode-ExplodeDamage = 5.0
+Explode-ExplodeLocalDamage = 5.0
+Explode-Limit = 10.0
+Explode-ExplodePacket = true
+Explode-Inhibit = false
+Explode-ExplodeHand = "SYNC"
+Explode-Weakness = "NONE"
+Place = true
+Place-PlaceRange = 5.0
+Place-PlaceWallRange = 3.5
+Place-PlaceDelay = 20.0
+Place-PlaceDamage = 5.0
+Place-PlaceLocalDamage = 5.0
+Place-PlacePacket = true
+Place-Interact = "NORMAL"
+Place-Raytrace = "DOUBLE"
+Place-PlaceHand = "SYNC"
+Place-Switch = "NONE"
+Pause = true
+Pause-PauseHealth = 10.0
+Pause-Safety = true
+Pause-PauseEating = false
+Pause-PauseMining = false
+Pause-PauseMending = false
+Override = true
+Override-OverrideHealth = 10.0
+Override-OverrideThreshold = 0.0
+Override-OverrideArmor = 0.0
+Rotation = "NONE"
+Rotation-YawLimit = "NONE"
+Rotation-RotateWhen = "BOTH"
+Rotation-RandomRotate = 0.0
+Calculations = true
+Calculations-Timing = "LINEAR"
+Calculations-Placements = "NATIVE"
+Calculations-Logic = "DAMAGE"
+Calculations-Synchronize = "SOUND"
+Calculations-Prediction = false
+Calculations-IgnoreTerrain = false
+Target = "CLOSEST"
+Target-TargetRange = 10.0
+Target-TargetPlayers = true
+Target-TargetPassives = false
+Target-TargetNeutrals = false
+Target-TargetHostiles = false
+Render = true
+Render-RenderMode = "BOTH"
+Render-RenderText = "NONE"
+Render-Width = 1.5
+
+[Burrow]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "OBSIDIAN"
+Rotation = "NONE"
+Offset = 2.2
+
+[Criticals]
+Enabled = false
+Drawn = true
+Bind = 20
+Mode = "PACKET"
+Motion = 0.42
+Modifier = 1.5
+Delay = 200.0
+
+[FastProjectile]
+Enabled = true
+Drawn = true
+Bind = 0
+Packets = 10.0
+Bows = false
+Eggs = false
+Snowballs = false
+
+[HoleFill]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "TARGETED"
+Block = "OBSIDIAN"
+Completion = "COMPLETION"
+Range = 5.0
+Switch = "NORMAL"
+Blocks = 4.0
+Strict = false
+Safety = false
+Doubles = true
+Rotation = "NONE"
+Target = "CLOSEST"
+Target-TargetRange = 10.0
+Target-Threshold = 3.0
+Render = true
+Render-RenderMode = "FILL"
+
+[Offhand]
+Enabled = false
+Drawn = true
+Bind = 0
+Item = "CRYSTAL"
+FallBack = "GAPPLE"
+Timing = "LINEAR"
+Gapple = "SWORD"
+Safety = "NONE"
+Health = 16.0
+Delay = 0.0
+InventoryStrict = false
+MotionStrict = false
+Recursive = false
+Pause = true
+Pause-PauseLiquid = false
+Pause-PauseAir = true
+Pause-PauseElytra = true
+
+[Surround]
+Enabled = false
+Drawn = true
+Bind = 0
+Timing = "SEQUENTIAL"
+Mode = "BASE"
+Block = "OBSIDIAN"
+Completion = "AIR"
+Center = "NONE"
+Switch = "NORMAL"
+Blocks = 4.0
+Extend = false
+Scatter = true
+Strict = false
+Rotation = "NONE"
+Render = true
+Render-RenderMode = "FILL"
+
+[AntiAFK]
+Enabled = false
+Drawn = true
+Bind = 0
+Chat = true
+Jump = true
+Rotate = false
+
+[AntiAim]
+Enabled = false
+Drawn = true
+Bind = 0
+Yaw = "RANDOM"
+Pitch = "RANDOM"
+Rotate = "PACKET"
+
+[AntiCrash]
+Enabled = true
+Drawn = true
+Bind = 0
+Packet = false
+Offhand = false
+Fireworks = true
+Skylight = true
+Particles = false
+Slime = false
+Signs = false
+
+[AutoDisconnect]
+Enabled = false
+Drawn = true
+Bind = 0
+Health = 2.0
+Totems = 0.0
+
+[ChatModifications]
+Enabled = true
+Drawn = true
+Bind = 0
+Time = "EU"
+Prefix = true
+Suffix = true
+Colored = true
+
+[ExtraTab]
+Enabled = true
+Drawn = true
+Bind = 0
+
+[FakePlayer]
+Enabled = false
+Drawn = true
+Bind = 0
+Inventory = true
+Health = true
+
+[MiddleClick]
+Enabled = false
+Drawn = true
+Bind = 0
+EntityAction = "FRIEND"
+MissAction = "PEARL"
+
+[MultiTask]
+Enabled = true
+Drawn = true
+Bind = 0
+
+[Notifier]
+Enabled = true
+Drawn = true
+Bind = 0
+EnableNotify = false
+PopNotify = false
+
+[Portal]
+Enabled = true
+Drawn = true
+Bind = 0
+GodMode = true
+Screens = true
+Effect = true
+Sounds = false
+
+[Timer]
+Enabled = false
+Drawn = true
+Bind = 0
+Multiplier = 4.0
+
+[XCarry]
+Enabled = true
+Drawn = true
+Bind = 0
+
+[ElytraFlight]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "CONTROL"
+Yaw = 30.0
+Pitch = 30.0
+Glide = 2.5
+Ascend = 1.0
+Descend = 1.0
+Fall = 0.0
+Firework = "NONE"
+LockRotation = false
+TakeOff = false
+TakeOff-StartTimer = 0.2
+Pause = true
+Pause-PauseLiquid = true
+Pause-PauseCollision = false
+
+[Jesus]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "SOLID"
+
+[LongJump]
+Enabled = false
+Drawn = true
+Bind = 0
+Speed = 1.06
+Acceleration = 1.11
+Glide = 1.06
+
+[NoSlow]
+Enabled = true
+Drawn = true
+Bind = 0
+Strict = true
+AirStrict = true
+SwitchStrict = true
+PlaceStrict = true
+GroundStrict = true
+InventoryMove = true
+InventoryMove-Arrow = 5.0
+Items = true
+SoulSand = true
+Slime = true
+Ice = true
+
+[PacketFlight]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "FAST"
+Type = "LIMIT_JITTER"
+Bounds = "UP"
+Phase = "FULL"
+Friction = "FAST"
+Factor = 1.0
+Strict = false
+Overshoot = false
+AntiKick = true
+
+[ReverseStep]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "MOTION"
+Speed = 0.4
+Height = 2.0
+OnlyHole = false
+Webs = false
+
+[Speed]
+Enabled = false
+Drawn = true
+Bind = 22
+Mode = "STRAFE"
+Speed = "NORMAL"
+Friction = "FAST"
+VelocityFactor = false
+PotionFactor = true
+Retain = false
+AirStrafe = false
+StrictJump = false
+StrictCollision = false
+StrictSprint = false
+Timer = true
+Timer-Ticks = 1.2
+
+[Sprint]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "DIRECTIONAL"
+Safe = true
+Strict = false
+
+[Step]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "NORMAL"
+Height = 1.0
+EntityStep = false
+
+[Velocity]
+Enabled = true
+Drawn = true
+Bind = 0
+Horizontal = 0.0
+Vertical = 0.0
+NoPush = true
+NoPush-Entities = true
+NoPush-Blocks = true
+NoPush-Liquid = true
+NoPush-Fishhooks = true
+
+[AntiHunger]
+Enabled = false
+Drawn = true
+Bind = 0
+StopSprint = true
+StopJump = true
+
+[AntiVoid]
+Enabled = true
+Drawn = true
+Bind = 0
+Mode = "SUSPEND"
+GlideSpeed = 5.0
+RiseSpeed = 0.5
+
+[Blink]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "MANUAL"
+Delay = 5.0
+Packets = 10.0
+Distance = 10.0
+
+[FastUse]
+Enabled = true
+Drawn = true
+Bind = 0
+Speed = 4.0
+GhostFix = false
+FastDrop = false
+PacketUse = false
+PacketUse-PacketFood = false
+PacketUse-PacketPotions = true
+EXP = true
+Bow = false
+Crystals = false
+Blocks = false
+SpawnEggs = false
+Fireworks = false
+
+[Interact]
+Enabled = true
+Drawn = true
+Bind = 0
+Hand = "MAINHAND"
+GhostHand = false
+NoSwing = false
+IgnoreContainers = false
+Liquid = false
+HeightLimit = true
+WorldBorder = false
+
+[NoFall]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "PACKET"
+Distance = 2.0
+Switch = "NORMAL"
+GlideSpeed = 1.5
+Factorize = false
+
+[NoRotate]
+Enabled = false
+Drawn = true
+Bind = 0
+Strict = false
+
+[PingSpoof]
+Enabled = false
+Drawn = true
+Bind = 0
+Delay = 0.5
+Transactions = false
+
+[Reach]
+Enabled = true
+Drawn = true
+Bind = 0
+Reach = 0.0
+HitBox = true
+HitBox-Extend = 0.0
+HitBox-PlayersOnly = true
+
+[Replenish]
+Enabled = false
+Drawn = true
+Bind = 0
+Percent = 70.0
+Delay = 100.0
+Wait = false
+
+[SpeedMine]
+Enabled = true
+Drawn = true
+Bind = 0
+Mode = "PACKET"
+Switch = "PACKET"
+Damage = 0.8
+Strict = false
+StrictSwitch = false
+StrictBreak = true
+NoSwing = false
+Reset = false
+Render = true
+Render-RenderMode = "BOTH"
+
+[CameraClip]
+Enabled = false
+Drawn = true
+Bind = 0
+Distance = 5.0
+
+[Chams]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "MODEL"
+Players = true
+Players-Local = false
+Mobs = true
+Monsters = true
+Crystals = true
+Crystals-Scale = 1.0
+Width = 3.0
+Texture = false
+Lighting = true
+Blend = false
+Transparent = true
+Depth = true
+Walls = true
+
+[ESP]
+Enabled = false
+Drawn = true
+Bind = 0
+Mode = "SHADER"
+Shader = "OUTLINE"
+Width = 1.25
+Players = true
+Passives = true
+Neutrals = true
+Hostiles = true
+Items = true
+Crystals = true
+Vehicles = true
+Chests = true
+EnderChests = true
+Shulkers = true
+Hoppers = true
+Furnaces = true
+
+[FullBright]
+Enabled = true
+Drawn = true
+Bind = 0
+
+[HoleESP]
+Enabled = false
+Drawn = true
+Bind = 0
+Range = 5.0
+Main = "FILL"
+Main-MainHeight = 0.1
+Main-MainWidth = 1.5
+Outline = "OUTLINE"
+Outline-OutlineHeight = 0.1
+Outline-OutlineWidth = 1.5
+Depth = true
+Doubles = true
+Quads = true
+Void = false
+Colors = true
+ColorSync = true
+Colors-Obsidian = 762733280
+Colors-Mixed = 762733280
+Colors-Bedrock = 762733280
+Colors-Void = 771686400
+
+[Nametags]
+Enabled = false
+Drawn = true
+Bind = 0
+Health = true
+Health-HealthBar = false
+Ping = true
+Gamemode = false
+TotemPops = true
+Armor = true
+Enchantments = true
+Enchantments-SimpleEnchantments = false
+Durability = true
+Mainhand = true
+Offhand = true
+ItemName = false
+Background = true
+Outline = false
+Scale = 0.2
+Scale-DistanceScale = false
+
+[NewChunks]
+Enabled = false
+Drawn = true
+Bind = 0
+Render = "OUTLINE"
+Height = 0.0
+Width = 1.5
+
+[NoRender]
+Enabled = true
+Drawn = true
+Bind = 0
+Overlays = true
+Overlays-Fire = true
+Overlays-Liquid = true
+Overlays-Block = true
+Overlays-Boss = true
+Fog = true
+Fog-LiquidVision = true
+Fog-Density = 0.0
+Armor = true
+Items = false
+TileEntities = false
+Barrier = true
+Maps = false
+HurtCamera = true
+WitherSkull = true
+Potion = false
+FOV = true
+Swing = false
+NoBob = true
+
+[NoWeather]
+Enabled = true
+Drawn = true
+Bind = 0
+Weather = "CLEAR"
+Time = 6000.0
+
+[SkyColor]
+Enabled = true
+Drawn = true
+Bind = 0
+Sky = true
+Fog = true
+
+[Tracers]
+Enabled = false
+Drawn = true
+Bind = 0
+Players = true
+Passive = false
+Neutrals = false
+Mobs = false
+Width = 0.5
+To = "BODY"
+
+[ViewModel]
+Enabled = true
+Drawn = true
+Bind = 0
+ItemAlpha = 255.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 0.0
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+RotateX = 0.0
+RotateY = 0.0
+RotateZ = 0.0
+
